@@ -7,6 +7,6 @@ This is a trivial baseline for the webpage classification task that always predi
 Submit this via the Github Action (navigate to "Actions" -> "Upload Docker Software to TIRA") via the following fields:
 
 - path: `trivial-baseline`
-- command: `/baseline.py -i $inputDataset/inputs.jsonl -o $outputDir/predictions.jsonl`
+- command: `python3 /baseline.py -i $inputDataset/inputs.jsonl -o $outputDir/predictions.jsonl`
 - Dockerfile: `Dockerfile`
 
